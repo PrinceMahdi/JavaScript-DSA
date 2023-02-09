@@ -100,3 +100,9 @@ const sum = [1, 2, 3, 4, 5].reduce((accumulator, currentValue) => {
   return accumulator + currentValue;
 });
 console.log(sum); // 15
+
+// Attach 2 arrays together
+const arrayOne = [1, 2, 3];
+const arrayTwo = [4, 5, 6];
+const arrayThree = arrayOne.concat(arrayTwo);
+console.log(arrayThree); // [ 1, 2, 3, 4, 5, 6 ]
