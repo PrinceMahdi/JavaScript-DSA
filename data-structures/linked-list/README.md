@@ -1,4 +1,4 @@
-# Linked List
+# Singly Linked List
 
 - A list full of elements that are linked to each other
 - Every element knows about the next element in line
@@ -12,6 +12,14 @@
 - The example above has 4 nodes
 - Typically, you have to keep track of the first element in the linked list (head node) and the last element (tail node)
 - A node is a container for data
+
+# Doubly Linked List
+- Every element knows about the the previous as well as the next in line
+
+- [5, "hi", 8, 11]
+
+  - 5 is linked to "hi", "hi" is linked to 5 AND 8, etc.
+
 
 # Linked List vs Array:
 
