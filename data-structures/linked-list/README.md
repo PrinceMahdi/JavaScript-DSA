@@ -11,6 +11,12 @@
 - The elements in a linked list are typically called "nodes"
 - The example above has 4 nodes
 - Typically, you have to keep track of the first element in the linked list (head node) and the last element (tail node)
+- A node is a container for data
+
+# Linked List vs Array:
+
+- Arrays need to be stored contiguously in memory which means all elements need to right next to each other in memory which can have consequences
+- In arrays you have elements whereas in linked lists you have nodes
 
 # Why would you want to use a linked list?
 
